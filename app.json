@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Driving Ustaad",
+    "slug": "driving-ustaad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {"backgroundColor": "#FFFFFF"}
+    },
+    "plugins": [
+      ["expo-local-authentication", {"faceIDPermission": "Allow Driving Ustaad to use Face ID to unlock your signed-in account."}]
+    ]
+  }
+}
